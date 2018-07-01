@@ -43,7 +43,7 @@ public class ClientApp {
 			String strurl ="https://localhost:23521/app/v1/myservice";//you can add all the urls in config file
 			URL url = new URL(strurl);
 			String method = "POST";
-			String message = "your soap message body";
+			String message = "your soap message body";//This must be a complete xml message
 			String msgtype = "text/xml";
 			String response = sslClient.sendRequest(url, method, message, msgtype);
 			
@@ -51,7 +51,7 @@ public class ClientApp {
 			strurl ="https://localhost:23521/app/v1/test/Student.json?studentId=9999";
 			url = new URL(strurl);
 			method = "GET";
-			message = "";
+			message = "";// can be json or xml
 			msgtype = "text/xml";
 			response = sslClient.sendRequest(url, method, message, msgtype);
 			
@@ -59,7 +59,7 @@ public class ClientApp {
 			strurl ="https://localhost:23521/app/v1/test/Student.json";
 			url = new URL(strurl);
 			method = "POST";
-			message = "your json message body";
+			message = "your json message body";//can be a json or xml message
 			msgtype = "text/xml";
 			response = sslClient.sendRequest(url, method, message, msgtype);
 		}catch(Exception e) {

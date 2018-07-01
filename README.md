@@ -15,4 +15,4 @@ What is a PKCS certificate/key store?
 
 What is HTTPS network protocol?
 
-This is going to be a complete SSL-based client application for both RESTFul  and SOAP calls. The beauty of this project is, it support both JKS and PKCS certificate through different configuration facilities provides with this project.  You can download the project and just need to refractor this framework/codebase and replace the existing Java classes with your classes to make this framework fulfill your business needs.
+This is going to be a complete SSL-based client application for both RESTFul and SOAP calls. The beauty of this project is, it supports both JKS and PKCS certificate through different configuration facilities provides with this project.  You can download the project and just need to refactor this framework/codebase and replace the existing Java classes with your classes to make this framework fulfill your business needs.
